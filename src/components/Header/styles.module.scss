@@ -1,0 +1,38 @@
+.headerContainer {
+    background: var(--white);
+    height: 4.5rem;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  
+    padding: 2rem 2rem;
+  
+    border-bottom: 1px solid var(--gray-100);
+  
+    img {
+      width: 83px;
+      height: 34px;
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        float: left;
+        text-transform: capitalize;
+        margin-left: 2rem;
+      
+        a {
+          font: 400 1.2rem Archivo;
+          cursor: pointer;
+          color: var(--orange-main);
+          transition: color 0.3s;
+
+          &:hover {
+            color: var(--blue-main);
+          }
+        }
+      }
+    }
+  }
