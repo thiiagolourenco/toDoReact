@@ -3,7 +3,7 @@ import Header from '../../components/Header';
 
 function Home() {
   return (
-    <div className="App">
+    <div>
       <Header/>
       <h1>HOME PAGE</h1>
     </div>
