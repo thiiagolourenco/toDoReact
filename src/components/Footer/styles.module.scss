@@ -1,11 +1,34 @@
 .footerContainer {
   background: var(--white);
   height: 4.5rem;
+  width: 100%;
 
   display: flex;
   align-items: center;
+  flex-direction: column;
+  justify-content: center;
 
   padding: 2rem 2rem;
 
   border-top: 2px solid var(--gray-100);
+
+  position: fixed;
+  bottom: 0;
+
+  h4 {
+    padding-top: 1rem;
+    font-family: Archivo, sans-serif;
+    color: var(--orange-main);
+  }
+
+  p {
+    font: 400 1rem Archivo;
+    color: var(--gray-200);
+    padding-bottom: 1rem;
+
+    a {
+      text-decoration: none;
+      color: var(--blue-main);
+    }
+  }
 }

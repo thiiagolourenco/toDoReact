@@ -5,7 +5,9 @@ import styles from "./styles.module.scss";
 function Footer() {
   return (
     <footer className={styles.footerContainer}>
-      <p className="">
+      <h4>ToDo - Organizando sua vida</h4>
+      <br/>
+      <p>
         App desenvolvido por{" "}
         <a
           href="https://github.com/thiiagolourenco"
@@ -14,9 +16,6 @@ function Footer() {
         >
           Thiago Lourenço
         </a>
-      </p>
-      <p className="">
-        <strong>Spring + React</strong>
       </p>
     </footer>
   );
