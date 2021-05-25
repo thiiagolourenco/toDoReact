@@ -1,0 +1,11 @@
+.footerContainer {
+  background: var(--white);
+  height: 4.5rem;
+
+  display: flex;
+  align-items: center;
+
+  padding: 2rem 2rem;
+
+  border-top: 2px solid var(--gray-100);
+}
