@@ -10,9 +10,9 @@ function Header() {
     <header className={styles.headerContainer}>
       <img src={logo} alt="Logo do ToDo"></img>
       <ul>
-        <li><a href="">Início</a></li>
-        <li className={styles.leftBorder}><a href="">Nova Tarefa</a></li>
-        <li className={styles.leftBorder}><a href="">Sincronizar</a></li>
+        <li><a href="/#">Início</a></li>
+        <li className={styles.leftBorder}><a href="/#">Nova Tarefa</a></li>
+        <li className={styles.leftBorder}><a href="/#">Sincronizar</a></li>
         <li className={styles.leftBorder}>
           <div className={styles.notification}>
             <img src={bell} alt="Icone de notificação"></img>
