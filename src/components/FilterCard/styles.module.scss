@@ -1,0 +1,51 @@
+  
+.homepage {
+  height: calc(100vh - 6.5rem);
+}
+  
+.latestEpisodes {
+  border: none;
+
+  ul {
+    width: 15rem;
+  
+    li {
+      background: var(--blue-main);
+      border: 1px solid var(--gray-100);
+      padding: 1.25rem ;
+      border-radius: 1.5rem;
+      position: relative;
+
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+      transition: background 0.3s;
+
+      &:hover {
+        background: var(--orange-main);
+      }
+
+      &.isActive {
+        background: var(--orange-main);
+      }
+  
+      .episodeDetails {
+        flex: 1;
+
+        img {
+          width: 1.3rem;
+          height: 1.3rem;
+          margin-left: -7.5rem;
+        }
+  
+        p {
+          color: var(--white);
+          font-size: 1.1rem;
+          margin-top: 1.5rem;
+          font-weight: bold;
+          float: right;
+        }
+      }
+    }
+  }
+}
