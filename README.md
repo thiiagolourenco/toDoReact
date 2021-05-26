@@ -1,18 +1,12 @@
-<div align="center">
-  <img src=".github/podcastr-logo.svg" alt="Podcastr logo">
-</div>
-
-## Podcastr
+## ToDo
 
 [![Author](https://img.shields.io/badge/author-thiiagolourenco-8257E5?style=flat-square)](https://github.com/thiiagolourenco)
-[![Languages](https://img.shields.io/github/languages/count/thiiagolourenco/podcastr?color=%238257E5&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/thiiagolourenco/podcastr?color=8257E5&style=flat-square)](https://github.com/thiiagolourenco/podcastr/stargazers)
+[![Languages](https://img.shields.io/github/languages/count/thiiagolourenco/toDoReact?color=%238257E5&style=flat-square)](#)
+[![Stars](https://img.shields.io/github/stars/thiiagolourenco/toDoReact?color=8257E5&style=flat-square)](https://github.com/thiiagolourenco/podcastr/stargazers)
 
 <h4 align="center">
   ToDo is a platform built to help your life.
 </h4>
-
-![Podcastr preview](.github/app-preview.png)
 
 ## Tecnologies
 
@@ -31,7 +25,7 @@ This project was developed using cutting edge front-end technologies.
 **Clone the project and access the folder**
 
 ```bash
-$ git clone https://github.com/thiiagolourenco/podcastr.git && cd podcastr
+$ git clone https://github.com/thiiagolourenco/toDoReact.git && cd ToDo
 ```
 
 **Follow the steps below**
