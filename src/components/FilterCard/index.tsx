@@ -3,16 +3,16 @@ import React from 'react';
 import styles from "./styles.module.scss";
 import filter from "../../assets/filter.png";
 
-type PropsFilter = {
+type PropsCardFilter = {
   title: string,
   isActive: boolean,
   changingColor: () => void
 }
 
-function FilterCard({title, isActive, changingColor}: PropsFilter) {
+function FilterCard({title, isActive, changingColor}: PropsCardFilter) {
   
   return (
-    <div className={styles.homepage}>
+    <div>
       <button type="button" className={styles.latestEpisodes} onClick={changingColor}>
         <ul>
           <li className={isActive ? styles.isActive : ''}>
