@@ -1,11 +1,11 @@
 ## ToDo
 
 [![Author](https://img.shields.io/badge/author-thiiagolourenco-8257E5?style=flat-square)](https://github.com/thiiagolourenco)
-[![Languages](https://img.shields.io/github/languages/count/thiiagolourenco/toDoReact?color=%238257E5&style=flat-square)](#)
-[![Stars](https://img.shields.io/github/stars/thiiagolourenco/toDoReact?color=8257E5&style=flat-square)](https://github.com/thiiagolourenco/podcastr/stargazers)
 
 <h4 align="center">
   ToDo is a platform built to help your life.
+  <br>
+  In this project was developed only home screen !!
 </h4>
 
 ## Tecnologies
