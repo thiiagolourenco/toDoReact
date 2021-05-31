@@ -5,7 +5,8 @@
 <h4 align="center">
   ToDo is a platform built to help your life.
   <br>
-  In this project was developed only home screen !!
+  <br>
+  (In this project was developed only home screen)
 </h4>
 
 ## Tecnologies
